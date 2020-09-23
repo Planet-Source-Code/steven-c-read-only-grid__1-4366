@@ -1,0 +1,17 @@
+The gridClass is a method of displaying data from an Access Database in a grid format.
+The grid is made up of arrays of text boxes and the display form inlcudes a flatscroll bar
+and progress bar.
+
+Once the display form has been designed, the load or activate event is used to intialise
+the gridClass.
+
+The gridClass must be intialised in the following order:
+
+	No of Columns
+	No of Rows
+	Population of ColumnDataFields Array
+	Population of ColumnDisplay Array
+	Set Progress Bar
+	Set Scroll Bar
+	Database Name
+	Recordset
